@@ -2,6 +2,8 @@
 
 A voice-enabled web application that helps Indian citizens access government welfare schemes in their preferred language, powered by Llama AI for natural Hindi responses.
 
+![alt text](image.png)
+
 ## 🎯 Features
 - **Voice Input**: Web Speech API for voice recognition
 - **Natural Hindi Responses**: Llama-powered conversational responses
