@@ -1,0 +1,21 @@
+# FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data validation
+pydantic==2.5.0
+
+# Web scraping dependencies
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Groq API for Llama integration
+groq==0.4.1
+python-dotenv==1.0.0
+
+# Optional: Add these for future enhancements
+# python-multipart==0.0.6  # For file uploads
+# sqlalchemy==2.0.23       # For database integration
+# python-jose[cryptography]==3.3.0  # For JWT authentication
+# passlib[bcrypt]==1.7.4    # For password hashing

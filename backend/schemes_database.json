@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-12-28",
+    "total_categories": 7,
+    "description": "Curated database of real Indian government welfare schemes",
+    "source": "Official government websites and portals"
+  },
+  "schemes": {
+    "housing": [
+      {
+        "title": "Pradhan Mantri Awas Yojana (PMAY)",
+        "description": "Housing for All scheme providing financial assistance for construction of houses to economically weaker sections and low income groups in rural and urban areas. The scheme aims to provide pucca houses with basic amenities to all eligible families.",
+        "link": "https://pmay.gov.in/",
+        "eligibility": "Economically Weaker Section (EWS) and Low Income Group (LIG) families",
+        "benefits": "Subsidy up to Rs. 2.67 lakh for house construction",
+        "application_process": "Online application through PMAY portal or Common Service Centers",
+        "documents_required": ["Aadhaar Card", "Income Certificate", "Bank Account Details", "Property Documents"],
+        "keywords": ["housing", "house", "awas", "ghar", "मकान", "home", "shelter", "घर", "बनाने", "योजना", "घर बनाने की योजना", "housing scheme", "pmay"]
+      },
+      {
+        "title": "Indira Awas Yojana",
+        "description": "Rural housing scheme for Below Poverty Line families to construct houses with basic amenities. Now merged with PMAY-G (Pradhan Mantri Awas Yojana - Gramin).",
+        "link": "https://pmayg.nic.in/",
+        "eligibility": "Below Poverty Line families in rural areas",
+        "benefits": "Financial assistance for house construction with basic amenities",
+        "application_process": "Through Gram Panchayat and Block offices",
+        "documents_required": ["BPL Certificate", "Aadhaar Card", "Bank Account Details"],
+        "keywords": ["rural", "housing", "indira", "awas", "गरीब", "poor", "घर", "योजना", "gramin", "village"]
+      }
+    ],
+    "employment": [
+      {
+        "title": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+        "description": "Provides guaranteed 100 days of wage employment to rural households whose adult members volunteer to do unskilled manual work. It aims to enhance livelihood security in rural areas.",
+        "link": "https://nrega.nic.in/",
+        "eligibility": "Adult members of rural households willing to do unskilled manual work",
+        "benefits": "Guaranteed 100 days of employment per household per year",
+        "application_process": "Apply at Gram Panchayat office with required documents",
+        "documents_required": ["Aadhaar Card", "Bank Account Details", "Residence Proof"],
+        "keywords": ["employment", "job", "work", "nrega", "mgnrega", "काम", "नौकरी", "rural", "योजना", "रोजगार", "employment scheme", "100 days"]
+      },
+      {
+        "title": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+        "description": "Skill development scheme to enable youth to take up industry-relevant skill training for better livelihood. It provides monetary rewards for successful completion of training.",
+        "link": "https://www.pmkvyofficial.org/",
+        "eligibility": "Youth aged 18-35 years with basic literacy",
+        "benefits": "Free skill training and monetary reward up to Rs. 8,000",
+        "application_process": "Online registration through PMKVY portal or training centers",
+        "documents_required": ["Aadhaar Card", "Educational Certificates", "Bank Account Details"],
+        "keywords": ["skill", "training", "employment", "youth", "कौशल", "प्रशिक्षण", "योजना", "रोजगार", "pmkvy"]
+      }
+    ],
+    "education": [
+      {
+        "title": "Pradhan Mantri Scholarship Scheme",
+        "description": "Scholarship for higher education to children of Armed Forces personnel, Central Armed Police Forces and Railway Protection Force. Provides financial support for technical and professional courses.",
+        "link": "https://scholarships.gov.in/",
+        "eligibility": "Children of Armed Forces, CAPF, and RPF personnel",
+        "benefits": "Scholarship amount varies from Rs. 2,000 to Rs. 3,000 per month",
+        "application_process": "Online application through National Scholarship Portal",
+        "documents_required": ["Educational Certificates", "Service Certificate of Parent", "Income Certificate", "Bank Details"],
+        "keywords": ["scholarship", "education", "student", "छात्रवृत्ति", "शिक्षा", "study", "योजना", "शिक्षा योजना", "education scheme", "बच्चों", "पढ़ाई"]
+      },
+      {
+        "title": "Mid Day Meal Scheme",
+        "description": "Provides free lunch to school children to boost enrollment, retention and attendance and improve nutritional levels. Covers government and government-aided schools.",
+        "link": "https://mdm.gov.in/",
+        "eligibility": "Children studying in government and government-aided schools (Classes I-VIII)",
+        "benefits": "Free nutritious meal during school hours",
+        "application_process": "Automatic enrollment for eligible school children",
+        "documents_required": ["School Enrollment Certificate"],
+        "keywords": ["meal", "school", "children", "nutrition", "मध्याह्न", "भोजन", "शिक्षा", "योजना", "बच्चों", "midday"]
+      }
+    ],
+    "health": [
+      {
+        "title": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+        "description": "World's largest health insurance scheme providing health cover of Rs. 5 lakh per family per year for secondary and tertiary care hospitalization. Covers over 10 crore poor and vulnerable families.",
+        "link": "https://pmjay.gov.in/",
+        "eligibility": "Families identified through Socio-Economic Caste Census (SECC) 2011",
+        "benefits": "Health insurance cover up to Rs. 5 lakh per family per year",
+        "application_process": "Check eligibility online and get Ayushman Card from nearest center",
+        "documents_required": ["Aadhaar Card", "Ration Card", "Mobile Number"],
+        "keywords": ["health", "insurance", "ayushman", "medical", "स्वास्थ्य", "बीमा", "hospital", "योजना", "स्वास्थ्य योजना", "health scheme", "इलाज", "मदद", "इलाज के लिए मदद चाहिए", "treatment"]
+      },
+      {
+        "title": "Janani Suraksha Yojana (JSY)",
+        "description": "Safe motherhood intervention scheme to reduce maternal and neo-natal mortality by promoting institutional delivery among poor pregnant women.",
+        "link": "https://nhm.gov.in/index1.php?lang=1&level=3&sublinkid=841&lid=309",
+        "eligibility": "Pregnant women belonging to BPL families",
+        "benefits": "Cash assistance for institutional delivery (Rs. 1,400 in rural areas, Rs. 1,000 in urban areas)",
+        "application_process": "Register at nearest ANM/ASHA worker or health facility",
+        "documents_required": ["BPL Certificate", "Pregnancy Registration Card", "Bank Account Details"],
+        "keywords": ["maternal", "pregnancy", "delivery", "mother", "जननी", "सुरक्षा", "प्रसव", "स्वास्थ्य", "योजना", "इलाज", "मदद"]
+      }
+    ],
+    "agriculture": [
+      {
+        "title": "PM Kisan Samman Nidhi Yojana",
+        "description": "Income support scheme providing Rs. 6,000 per year to small and marginal farmer families having combined land holding up to 2 hectares. Amount is transferred directly to bank accounts in three installments.",
+        "link": "https://pmkisan.gov.in/",
+        "eligibility": "Small and marginal farmers with landholding up to 2 hectares",
+        "benefits": "Rs. 6,000 per year in three equal installments of Rs. 2,000 each",
+        "application_process": "Online registration through PM-KISAN portal or Common Service Centers",
+        "documents_required": ["Aadhaar Card", "Land Records", "Bank Account Details"],
+        "keywords": ["farmer", "agriculture", "kisan", "farming", "किसान", "खेती", "income", "योजना", "कृषि योजना", "किसान के लिए योजना", "agriculture scheme", "pm kisan"]
+      },
+      {
+        "title": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "description": "Crop insurance scheme providing insurance coverage and financial support to farmers in case of failure of any of the notified crop due to natural calamities, pests & diseases.",
+        "link": "https://pmfby.gov.in/",
+        "eligibility": "All farmers growing notified crops in notified areas",
+        "benefits": "Insurance coverage for crop loss due to natural calamities",
+        "application_process": "Apply through banks, insurance companies, or online portal",
+        "documents_required": ["Aadhaar Card", "Land Records", "Sowing Certificate", "Bank Account Details"],
+        "keywords": ["crop", "insurance", "farmer", "fasal", "बीमा", "फसल", "agriculture", "किसान", "योजना", "कृषि", "pmfby"]
+      }
+    ],
+    "pension": [
+      {
+        "title": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "description": "Voluntary and contributory pension scheme for unorganised workers with monthly income up to Rs. 15,000. Provides assured monthly pension of Rs. 3,000 after attaining age of 60 years.",
+        "link": "https://www.pmshramyogi.maandhan.in/",
+        "eligibility": "Unorganised workers aged 18-40 years with monthly income up to Rs. 15,000",
+        "benefits": "Assured monthly pension of Rs. 3,000 after age 60",
+        "application_process": "Online registration through portal or Common Service Centers",
+        "documents_required": ["Aadhaar Card", "Bank Account Details", "Mobile Number"],
+        "keywords": ["pension", "worker", "unorganised", "shram", "yogi", "पेंशन", "श्रमिक", "pm-sym"]
+      },
+      {
+        "title": "National Social Assistance Programme (NSAP)",
+        "description": "Social security scheme providing financial assistance to elderly, widows and disabled persons belonging to Below Poverty Line households. Includes old age pension, widow pension, and disability pension.",
+        "link": "https://nsap.nic.in/",
+        "eligibility": "Elderly (60+), widows (40+), and disabled persons from BPL families",
+        "benefits": "Monthly pension ranging from Rs. 200 to Rs. 500 depending on category",
+        "application_process": "Apply through local Panchayat or municipal office",
+        "documents_required": ["Age Proof", "BPL Certificate", "Bank Account Details", "Disability Certificate (if applicable)"],
+        "keywords": ["pension", "elderly", "widow", "disabled", "social", "assistance", "वृद्धावस्था", "nsap"]
+      }
+    ],
+    "women": [
+      {
+        "title": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+        "description": "Maternity benefit programme providing cash incentive to pregnant women and lactating mothers for better health and nutrition. Provides Rs. 5,000 in three installments.",
+        "link": "https://pmmvy.nic.in/",
+        "eligibility": "Pregnant and lactating mothers (excluding government employees)",
+        "benefits": "Cash incentive of Rs. 5,000 in three installments",
+        "application_process": "Register at Anganwadi Center or health facility",
+        "documents_required": ["Aadhaar Card", "Bank Account Details", "MCP Card"],
+        "keywords": ["maternity", "women", "pregnancy", "mother", "मातृत्व", "महिला", "गर्भवती", "pmmvy"]
+      },
+      {
+        "title": "Beti Bachao Beti Padhao",
+        "description": "Scheme to address declining Child Sex Ratio and related issues of empowerment of women over a life-cycle continuum. Focuses on prevention of gender-biased sex selective elimination and ensuring survival & protection of girl child.",
+        "link": "https://wcd.nic.in/bbbp-scheme",
+        "eligibility": "All girl children and women",
+        "benefits": "Various benefits including education support and awareness programs",
+        "application_process": "Implemented through various government departments and schemes",
+        "documents_required": ["Birth Certificate", "School Enrollment Certificate"],
+        "keywords": ["girl", "child", "women", "education", "बेटी", "बचाओ", "पढ़ाओ", "bbbp"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwarajyaAI - Voice Assistant for Government Schemes</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add favicon for better UX -->
+    <link rel="icon" type="image/x-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇮🇳</text></svg>">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <span class="flag">🇮🇳</span>
+                SwarajyaAI
+            </h1>
+            <p class="tagline">आपकी आवाज़, सरकारी योजनाओं तक पहुंच</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <h2>सरकारी योजनाओं के बारे में पूछें</h2>
+                <p class="description">
+                    माइक बटन दबाएं और अपनी भाषा में सरकारी योजनाओं के बारे में पूछें।
+                    हम आपको सही जानकारी और लिंक प्रदान करेंगे।
+                </p>
+            </section>
+
+            <!-- Voice Interface Section -->
+            <section class="voice-interface">
+                <!-- Microphone Button - Main interaction point -->
+                <div class="mic-container">
+                    <button id="micButton" class="mic-button" title="Click to speak">
+                        <svg class="mic-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z" />
+                            <path
+                                d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z" />
+                        </svg>
+                    </button>
+                    <p class="mic-status" id="micStatus">माइक दबाएं और बोलें</p>
+                </div>
+
+                <!-- Status and Feedback Area -->
+                <div class="status-container">
+                    <div id="listeningIndicator" class="listening-indicator hidden">
+                        <div class="pulse"></div>
+                        <span>सुन रहा हूं...</span>
+                    </div>
+
+                    <div id="processingIndicator" class="processing-indicator hidden">
+                        <div class="spinner"></div>
+                        <span>प्रोसेसिंग...</span>
+                    </div>
+                </div>
+
+                <!-- User Query Display -->
+                <div id="queryDisplay" class="query-display hidden">
+                    <h3>आपका सवाल:</h3>
+                    <p id="queryText"></p>
+                </div>
+
+                <!-- Response Section -->
+                <div id="responseSection" class="response-section hidden">
+                    <h3>जवाब:</h3>
+                    <div class="response-content">
+                        <p id="responseText"></p>
+                        <div id="responseLink" class="response-link hidden">
+                            <a href="#" target="_blank" id="schemeLink">अधिक जानकारी के लिए यहां क्लिक करें</a>
+                        </div>
+                    </div>
+
+                    <!-- Audio Controls -->
+                    <div class="audio-controls">
+                        <button id="playButton" class="control-button">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                            फिर से सुनें
+                        </button>
+                        <button id="stopButton" class="control-button">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6 6h12v12H6z" />
+                            </svg>
+                            रोकें
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Example Queries Section -->
+            <section class="examples-section">
+                <h3>उदाहरण प्रश्न:</h3>
+                <div class="example-queries">
+                    <button class="example-btn" data-query="मुझे घर बनाने के लिए योजना चाहिए">
+                        🏠 घर बनाने की योजना
+                    </button>
+                    <button class="example-btn" data-query="मुझे काम चाहिए">
+                        💼 रोजगार की योजना
+                    </button>
+                    <button class="example-btn" data-query="बच्चों की पढ़ाई के लिए scholarship">
+                        🎓 शिक्षा योजना
+                    </button>
+                    <button class="example-btn" data-query="इलाज के लिए मदद चाहिए">
+                        🏥 स्वास्थ्य योजना
+                    </button>
+                    <button class="example-btn" data-query="किसान के लिए योजना">
+                        🌾 कृषि योजना
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SwarajyaAI - भारत सरकार की योजनाओं के लिए आपका सहायक</p>
+            <p class="disclaimer">
+                यह एक डेमो एप्लिकेशन है। वास्तविक जानकारी के लिए संबंधित सरकारी वेबसाइट पर जाएं।
+            </p>
+        </div>
+    </footer>
+
+    <!-- Error Modal for better UX -->
+    <div id="errorModal" class="modal hidden">
+        <div class="modal-content">
+            <h3>त्रुटि</h3>
+            <p id="errorMessage"></p>
+            <button id="closeError" class="control-button">ठीक है</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
