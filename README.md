@@ -29,6 +29,8 @@ SwarajyaAI/
 │   ├── requirements.txt        # Python dependencies
 │   └── .env.example            # Environment variables template
 └── README.md
+└── .gitignore
+
 ```
 
 ## 🚀 Setup Instructions
